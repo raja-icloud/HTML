@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        height: 60px;
+        width: 100%;
+        border: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header .menu-section {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .header .logo-section {
+        display: flex;
+        width: 20%;
+        align-items: center;
+      }
+
+      .header .logo-section .log-img {
+        height: 30px;
+        width: 30px;
+        background: #020024;
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(96, 96, 164, 1) 34%,
+          rgba(133, 133, 214, 1) 47%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        margin-right: 10px;
+      }
+
+      .btn-box {
+        background-color: blue;
+        padding: 5px;
+        border-radius: 50px;
+        color: white;
+        width: 200px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-section">
+        <div class="log-img"></div>
+        <div class="logo-txt">LOGO</div>
+      </div>
+      <div class="menu-section">
+        <div class="menu">Home</div>
+        <div class="menu">About US</div>
+        <div class="menu">Course</div>
+        <div class="menu">Pricing</div>
+        <div class="menu">Contact</div>
+        <div class="menu btn-box">Get Started</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        .outer-box {
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            border: 1px solid red;
+            position: relative;
+        }
+
+        .inner-box {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            border: 1px solid green;
+            position: absolute;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+    <hr>
+    <div style="display: inline;">element one</div>
+    <div style="display: inline;">element two</div>
+    <div style="display: block;">element one</div>
+    <div style="display: block;">element two</div>
+    <span style="display: inline;"></span>
+</body>
+</html>
