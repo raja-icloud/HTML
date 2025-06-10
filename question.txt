@@ -1,0 +1,46 @@
+HTML Questions
+
+1. type of styles (inline, internal, external)
+2. how can we write inline css ? (by using style attribute)
+3. internal vs external css ?
+4. what is docktype?
+5. features of HTML5?
+6. what are the new elments came in HTML5?
+7. what attribute & tell about some of them?
+8. purpose of iframe or (other element) ?
+9. what is void elment & list down some of them?
+10. id vs class
+11. dom vs shadow dom.
+12 what shadow dom
+
+Most used elemets
+h1 to h6, div, p, input, form, label, img, span, iframe, 
+br, hr, a, button, // header, footer, main
+
+CSS Questions
+
+0 type of selector in css (#id, .clas, elment)
+1 what is flex?
+2 display none vs visiblity hidden (display:block vs display:inline)
+3 what is box modeling? 
+4 what is meadia query?
+5 what is keyframe or how can we write animate css?
+6 position relative vs absolute?
+7 how can we create layout ?
+9 what is z-index
+10 px vs percentage 
+11 vh vs percentage vs rem
+12 css background properties
+13 sudo classes vs sudo element
+14 flex box vs Grid
+15 how can we import a css into another css file?
+
+// task on html & css
+draw a circle in css
+create a simple grid system
+give sample for meadia query
+give sampel for animate
+give sample for responsive table
+
+
+
