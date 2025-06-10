@@ -9,27 +9,32 @@
         background-color: white;
         margin: 0;
         padding: 0;
+        background-image: url("./bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
       }
 
       .header {
         height: 60px;
         width: 100%;
-        border: 1px solid gray;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        color: white;
       }
 
       .header .menu-section {
-        width: 80%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
+        margin-right: 50px;
       }
 
       .header .logo-section {
         display: flex;
         width: 20%;
         align-items: center;
+        margin-left: 50px;
       }
 
       .header .logo-section .log-img {
@@ -54,10 +59,55 @@
         width: 200px;
         text-align: center;
       }
+
+      h1 {
+        margin-top: 100px;
+        color: white;
+        padding-left: 50px;
+        font-size: 70px;
+      }
+
+      p {
+        padding-left: 50px;
+        text-align: justify;
+        width: 400px;
+        color: white;
+      }
+
+      .static-text {
+        height: 100px;
+        width: 100px;
+       position: absolute;
+        color: green;
+        left: 48%;
+        bottom: 170px;
+        z-index: 1000;
+      }
+
+      .spinner {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 10s;
+        margin: auto;
+      }
+
+    @keyframes example {
+      from {background-color: red;}
+      to {background-color: yellow;}
+        0% {
+            transform: rotate(0deg); /* Starting state: no rotation */
+        }
+        100% {
+            transform: rotate(90deg); /* Ending state: full rotation */
+        }
+    }
+
     </style>
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="logo-section">
         <div class="log-img"></div>
         <div class="logo-txt">LOGO</div>
@@ -70,6 +120,20 @@
         <div class="menu">Contact</div>
         <div class="menu btn-box">Get Started</div>
       </div>
-    </div>
+    </header>
+    <main>
+      <h1>Business <br />Landing Page</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, cumque? Quam eos facilis perferendis fuga dicta qui porro, quisquam nesciunt sapiente deleniti suscipit laudantium autem fugit, sed consequatur asperiores? Ducimus?
+      </p>
+       <br />
+       <div class="menu btn-box" style="margin-left: 150px;">Get Started</div>
+      <div class="static-text">
+          Animate
+        </div>
+       <div class="spinner">
+        
+       </div>
+    </main>
   </body>
 </html>
